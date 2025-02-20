@@ -1,15 +1,13 @@
 # C-Sharp_Guide
-```csharp
-dotnet new console -n MyApp
-cd MyApp
+1.) Create Csharp new project
+```Csharp
+dotnet new console -n ProjectName
+```
+2.) Change directory to run project
+```Csharp
+cd ProjectName
+```
+3.) Run Project
+```Csharp
 dotnet run
-using System;
-
-class Program
-{
-    static void Main()
-    {
-        Console.WriteLine("Hello, Sidd!");
-    }
-}
 ```
