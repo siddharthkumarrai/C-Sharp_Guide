@@ -12,3 +12,11 @@ cd ProjectName
 dotnet run
 ```
 # Introduction to C#
+```Csharp
+using System;
+class Program {
+    static void Main() {
+        Console.WriteLine("Hello, C#");
+    }
+}
+```
