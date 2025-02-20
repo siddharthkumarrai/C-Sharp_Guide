@@ -28,6 +28,12 @@ bool isAlive = true;
 char grade = 'A';
 string name = "Rahul";
 ```
+- Constants
+    - declare the variable as "constant", which means unchangeable and read-only:
+      ```Csharp
+          const int myNum = 15;
+          myNum = 20; // error
+      ```
 ## Operators in C#
 - Arithmetic Operators: +, -, *, /, %
 - Comparison Operators: ==, !=, >, <, >=, <=
